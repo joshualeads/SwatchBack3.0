@@ -18,7 +18,7 @@ import {
     Heading
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-//import UserAvatar from 'react-user-avatar';
+import UserAvatar from 'react-avatar';
 import { useSession, signOut } from 'next-auth/react';
 import styles from './Nav.module.css';
 
@@ -140,14 +140,14 @@ const NavHome = () => {
                                         variant={'link'}
                                         cursor={'pointer'}
                                         minW={0}>
-                                            {/*
+
                                             <UserAvatar 
                                                 size="45" 
                                                 name={`${sbProfile.FirstName} ${sbProfile.LastName}`} 
                                                 className={styles.UserAvatarinner} 
                                                 src={sbProfile.ProfilePic || ''}
                                             />
-                                            */}
+
                                     </MenuButton>
                                     <MenuList >
                                         <MenuItem>

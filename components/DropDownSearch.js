@@ -1,11 +1,9 @@
 import React, {useState} from 'react';
-//import  from 'next/link';
 import Router from 'next/router';
 import { HStack, Link, Stack } from '@chakra-ui/react';
 import 'react-bootstrap-typeahead/css/Typeahead.css';
 import { AsyncTypeahead } from 'react-bootstrap-typeahead';
 import Image from 'next/image';
-//import UserAvatar from 'react-user-avatar';
 import { Show, Hide } from '@chakra-ui/react'
 
 const DropDownSearch = (props) => {

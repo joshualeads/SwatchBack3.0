@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import UserAvatar from 'react-user-avatar';
+import UserAvatar from 'react-avatar';
 import { Box, HStack, Tag, Image, Text, Heading } from '@chakra-ui/react';
 import { useFetchUser } from '../../lib/authContext';
 import Layout from '../../components/global/Layout';

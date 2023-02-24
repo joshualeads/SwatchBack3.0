@@ -1,7 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import {Box, Image, Heading, Text, HStack, Tag, useColorModeValue} from '@chakra-ui/react';
-import UserAvatar from 'react-user-avatar';
+import UserAvatar from 'react-avatar';
 import styles from './Blog.module.css';
 
 const BlogTags = (props) => {
