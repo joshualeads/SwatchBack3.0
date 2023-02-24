@@ -108,7 +108,7 @@ const ProductDetailPage = ({product}) => {
 
               {/* Related Products */}
               {
-                product.recomendedProducts.references.edges ?
+                product.recomendedProducts ?
                   (
                     product.recomendedProducts.references.edges.map((prod)=>{
                       return <RelatedProducts key={prod.node.id}
